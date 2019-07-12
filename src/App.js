@@ -120,6 +120,7 @@ class App extends React.Component {
     //request to bring users data
     axios.get(`https://jsonplaceholder.typicode.com/photos`).then(res => {
       const usersPhotos = res.data;
+
       //console.log(usersPhotos);
       //this.setState({ users: usersPhotos });
     });
@@ -509,31 +510,31 @@ class App extends React.Component {
     );
   }
 }
-// Breadcrumb.propTypes = {
-//   tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
-//   listTag: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
-//   className: PropTypes.string,
-//   listClassName: PropTypes.string,
-//   cssModule: PropTypes.object,
-//   children: PropTypes.node,
-//   "aria-label": PropTypes.string
-// };
+Breadcrumb.propTypes = {
+  tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
+  listTag: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
+  className: PropTypes.string,
+  listClassName: PropTypes.string,
+  cssModule: PropTypes.object,
+  children: PropTypes.node,
+  "aria-label": PropTypes.string
+};
 
-// BreadcrumbItem.propTypes = {
-//   tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
-//   active: PropTypes.bool,
-//   className: PropTypes.string,
-//   cssModule: PropTypes.object
-// };
-// InputGroup.propTypes = {
-//   tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
-//   size: PropTypes.string,
-//   className: PropTypes.string
-// };
+BreadcrumbItem.propTypes = {
+  tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
+  active: PropTypes.bool,
+  className: PropTypes.string,
+  cssModule: PropTypes.object
+};
+InputGroup.propTypes = {
+  tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
+  size: PropTypes.string,
+  className: PropTypes.string
+};
 
-// InputGroupAddon.propTypes = {
-//   tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
-//   addonType: PropTypes.oneOf(["prepend", "append"]).isRequired,
-//   className: PropTypes.string
-// };
+InputGroupAddon.propTypes = {
+  tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
+  addonType: PropTypes.oneOf(["prepend", "append"]).isRequired,
+  className: PropTypes.string
+};
 export default App;

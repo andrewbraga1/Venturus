@@ -1,9 +1,11 @@
 
+Applicant: Andrew Braga Rodrigues
 
+User story: #1
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 ## Available Scripts
 
-So I din’t need to install or configure tools like Webpack or Babel. They are preconfigured and hidden so that you can focus on the code.
+So I din’t need to install or configure tools like Webpack or Babel. They are preconfigured and hidden so that i could focus on the code.
 
 Instructions:
 
@@ -21,6 +23,7 @@ You will also see any lint errors in the console.
 
 
 
+### If you still would like to have control of some package manager. Follow the instructions below.
 
 ### `npm run eject`
 
